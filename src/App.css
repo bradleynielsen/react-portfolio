@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-color: #efefef;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 25s ease-in-out;
+  height: 80px;
+  display: block;
+  box-shadow: 0 0 3px gainsboro, 0 0 5px gainsboro;
+}
+
+.App-header {
+  background-color: #222;
+  background-image: url("./img/bg1.jpg");
+  background-size: 100%;
+  height: 160px;
+  padding: 20px;
+  background-position: center;
+  color: gainsboro;
+  font-size: xx-large;
+  text-shadow: 0 0 3px #666, 0 0 5px #666;
+}
+
+.App-intro {
+  font-size: large;
+  background-color: #efefef;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
